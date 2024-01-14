@@ -20,7 +20,7 @@
 
 项目包含源码（`RefreshBanditEvent`）和直接可用的 `dll`（`Debug` 模式下编的...后面会再调整下工作流）。
 
-源码是 `Visual Studio 2022` 工程，如果需要编译的话可以参照 [Modding文档](https://docs.bannerlordmodding.com/_tutorials/basic-csharp-mod.html#preparation)里的 ` Setting up your Project` 部分配置项目依赖的 `dll` 和生成路径。然后进行生成。
+源码是 `Visual Studio 2022` 工程，如果需要编译的话可以参照 [Modding文档](https://docs.bannerlordmodding.com/_tutorials/basic-csharp-mod.html#preparation) 里的 ` Setting up your Project` 部分配置项目依赖的 `dll` 和生成路径。然后进行生成。
 
 无论是使用现成编译好的 `dll` 还是自己编，最后一步就是到游戏目录的 `Modules` 下，创建一个名为 `RefreshBanditEvent` 的目录，然后将下面两个文件 or 目录放到里面：
 
