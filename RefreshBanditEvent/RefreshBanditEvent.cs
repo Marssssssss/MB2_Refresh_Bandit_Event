@@ -53,6 +53,7 @@ namespace RefreshBanditEvent
             CampaignEvents.DailyTickEvent.AddNonSerializedListener(this, BanditDailyTick);
             CampaignEvents.WeeklyTickEvent.AddNonSerializedListener(this, BanditWeeklyTick);
         }
+
         public override void SyncData(IDataStore dataStore)
         {
             dataStore.SyncData("_refresh_bandit_event_hour_count", ref hourCount);
